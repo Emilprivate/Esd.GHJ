@@ -5,7 +5,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/EsdPZ.exe",
+            "program": "${workspaceFolder}/Build/EsdPZ.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
