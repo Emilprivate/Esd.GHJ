@@ -5,7 +5,7 @@ CC = g++
 INCLUDES := $(wildcard ./Gamehack/*/)
 
 # Define the target
-TARGET = Build/EsdPZ.dll
+TARGET = Build/Esd<Game>.dll
 
 # Define the C++ source files
 SRCS := ./main.cpp

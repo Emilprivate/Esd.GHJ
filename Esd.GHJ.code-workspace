@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "Project Zomboid"
+		},
+		{
+			"path": "Template"
 		}
 	],
 	"settings": {}
