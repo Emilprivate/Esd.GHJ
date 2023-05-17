@@ -12,7 +12,7 @@ SRCS := ./main.cpp
 
 # Rule for building the target
 $(TARGET): $(SRCS)
-	$(CC) $(INCLUDES:%=-I%) -o $(TARGET) $(SRCS)
+	$(CC) $(INCLUDES) -g -o $(TARGET) $(SRCS)
 
 # Rule for running the target
 run: $(TARGET)

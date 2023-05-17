@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/Build/EsdPZ.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
