@@ -10,5 +10,9 @@
 			"path": "Template"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"cstdio": "cpp"
+		}
+	}
 }
