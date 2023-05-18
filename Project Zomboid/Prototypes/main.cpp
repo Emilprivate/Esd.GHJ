@@ -177,7 +177,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
             UnhookWindowsHookEx(g_keyboardHook);
             g_keyboardHook = nullptr;
         }
-        // Unload the DLL
+        //Unload the DLL
         UnloadDLL(); 
     }
 
