@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Program Files/Java/jdk-20/include",
-                "C:/Program Files/Java/jdk-20/include/win32"
+                "C:/Program Files/Java/jdk-20/include/win32",
+                "C:/MinGW/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -13,9 +14,9 @@
                 "_UNICODE"
             ],
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
-            "cStandard": "c17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "cStandard": "c23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "windows-gcc-x86"
         }
     ],
     "version": 4

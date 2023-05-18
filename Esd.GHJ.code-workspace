@@ -12,7 +12,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"cstdio": "cpp"
+			"cstdio": "cpp",
+			"ostream": "cpp"
 		}
 	}
 }
