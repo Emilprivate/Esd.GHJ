@@ -25,7 +25,7 @@ IMGUI_SRCS = $(IMGUI_DIR)/imgui.cpp \
 IMGUI_OBJS = $(IMGUI_SRCS:.cpp=.o)
 
 # Define the libraries to link against
-LIBS = -lglfw3 -lopengl32 -luser32 -lDwmapi -lgdi32 -L/Libraries/glew/lib/Win32 -lglew32
+LIBS = -lglfw3 -lopengl32 -luser32 -lDwmapi -lgdi32
 
 # Compile ImGui into an object file
 $(IMGUI_DIR)/%.o: $(IMGUI_DIR)/%.cpp
