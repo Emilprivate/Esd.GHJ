@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{DFEFAD41-31DA-4253-92D6-B57C02626FB7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IntDir>$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Program Files\Java\jdk-20\include;C:\Program Files\Java\jdk-20\include\win32;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Prototypes\Prototype2\Libraries\glew\include\GL;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Prototypes\Prototype2\Libraries\minhook\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Prototypes\Prototype2\Libraries\glew\lib\Release\x64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Prototypes\Prototype2\Libraries\minhook\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ESDPZ_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;Dwmapi.lib;gdi32.lib;MinHook.x64.lib;MinHook.x86.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ESDPZ_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;Dwmapi.lib;gdi32.lib;MinHook.x64.lib;MinHook.x86.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;user32.lib;Dwmapi.lib;gdi32.lib;MinHook.x64.lib;MinHook.x86.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ESDPZ_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;user32.lib;Dwmapi.lib;gdi32.lib;MinHook.x64.lib;MinHook.x86.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\ImGui\imgui.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\Libraries\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\ImGui\imconfig.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imgui.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\..\Libraries\ImGui\imstb_truetype.h" />
+    <ClInclude Include="attempts.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Libraries\Minhook\bin\MinHook.x64.dll" />
+    <None Include="..\..\Libraries\Minhook\bin\MinHook.x86.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
