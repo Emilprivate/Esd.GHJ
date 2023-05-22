@@ -43,10 +43,10 @@ void RenderMenu(bool *show)
     ImGui::Separator();
     ImGui::Spacing();
 
-    // Calculate the width for the buttons to fill the entire menu horizontally
+    //Calculate the width for the buttons to fill the entire menu horizontally
     float buttonWidth = ImGui::GetContentRegionAvailWidth() / 2 - ImGui::GetStyle().ItemSpacing.x;
 
-    // Center-align the buttons
+    //Center-align the buttons
     ImGui::SetCursorPosX((ImGui::GetWindowContentRegionMax().x - buttonWidth) / 2);
     if (ImGui::Button("UC Thread", ImVec2(buttonWidth, 0)))
         ShellExecuteA(NULL, "open", "https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html", NULL, NULL, SW_SHOWNORMAL);
