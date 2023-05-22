@@ -54,3 +54,6 @@ cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
 - Make sure that Configuration Properties -> General -> "Configuration Type" is set to Dynamic Library (.dll), and C++ Language Standard is set to a minimum of C++14 Standard.
 
 - Make sure that Minhook->bin->MinHook.x64.dll & MinHook.x86.dll are in their respective compilation folders. If you're compiling as x86, then make sure that you add the x86.dll file of MinHook inside there and inject EsdPZ / Prototype<version> while the MinHook dll is in the folder.
+```
+
+## [Discord](https://discord.gg/NKcaUBmc)
