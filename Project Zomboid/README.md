@@ -29,6 +29,7 @@ cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
 -> C/C++
 - Make sure to include all the library include related file paths inside of "Additional Include Directories"
   - Include related file paths:
+    - Libraries\stb
     - Libraries\GLx64
     - Libraries\GLx86
     - Libraries\ImGui
