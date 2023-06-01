@@ -1,6 +1,8 @@
 # Esd.PZ - Project Zomboid
 This is a cheat for Project Zomboid
 
+## [Join our Discord for support and updates](https://discord.gg/3jjzuYPBbk)
+
 ## Installation guide
 
 ### Requirements:
@@ -56,5 +58,3 @@ cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
 
 - Make sure that Minhook->bin->MinHook.x64.dll & MinHook.x86.dll are in their respective compilation folders. If you're compiling as x86, then make sure that you add the x86.dll file of MinHook inside there and inject EsdPZ / Prototype<version> while the MinHook dll is in the folder.
 ```
-
-## [Join our Discord for support and updates](https://discord.gg/3jjzuYPBbk)
