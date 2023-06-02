@@ -1,7 +1,7 @@
 # Esd.PZ - Project Zomboid
 This is a cheat for Project Zomboid
 
-## [Join our Discord for support and updates](https://discord.gg/3jjzuYPBbk)
+## [Join our Discord for support and updates](https://discord.gg/CtafmXstD8)
 
 ## Installation guide
 
