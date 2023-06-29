@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_demo.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_draw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_opengl3.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_win32.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_tables.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_widgets.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_truetype.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imconfig.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_win32.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_internal.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_rectpack.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_textedit.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="styles.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="skills.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="misc1.h">
+      <Filter>core\menu\tabs\misctabs</Filter>
+    </ClInclude>
+    <ClInclude Include="misc2.h">
+      <Filter>core\menu\tabs\misctabs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="jvm.h">
+      <Filter>core\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>core\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="imguistyles.h">
+      <Filter>core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="configsystem.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="verdana.h">
+      <Filter>core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="terminal.h">
+      <Filter>core\menu\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="playercalls.h">
+      <Filter>core\manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="inventorycalls.h">
+      <Filter>core\manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="items_window.h">
+      <Filter>core\menu\menubar</Filter>
+    </ClInclude>
+    <ClInclude Include="playerslist_window.h">
+      <Filter>core\menu\menubar</Filter>
+    </ClInclude>
+    <ClInclude Include="clothing.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="json_cpp_format\combined.h">
+      <Filter>core\misc\json_cpp_format</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_itemmaps.h">
+      <Filter>core\misc\json_cpp_format</Filter>
+    </ClInclude>
+    <ClInclude Include="equipment.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="itemsmisc.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="literature.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="materials.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="medical.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>core\menu\menubar\itemstabs</Filter>
+    </ClInclude>
+    <ClInclude Include="items_json_manager.h">
+      <Filter>core\menu\menubar\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="items_window_manager.h">
+      <Filter>core\menu\menubar\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="skillcalls.h">
+      <Filter>core\manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>core\menu\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="en.h">
+      <Filter>core\misc\languages</Filter>
+    </ClInclude>
+    <ClInclude Include="zh.h">
+      <Filter>core\misc\languages</Filter>
+    </ClInclude>
+    <ClInclude Include="localization_manager.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ru.h">
+      <Filter>core\misc\languages</Filter>
+    </ClInclude>
+    <ClInclude Include="russian.h">
+      <Filter>core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="chinese.h">
+      <Filter>core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="pl.h">
+      <Filter>core\misc\languages</Filter>
+    </ClInclude>
+    <ClInclude Include="br.h">
+      <Filter>core\misc\languages</Filter>
+    </ClInclude>
+    <ClInclude Include="playerhandler.h">
+      <Filter>core\handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{f3f73919-aac9-4d1f-8ab9-62598aaef637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu">
+      <UniqueIdentifier>{d5c0be26-e9fa-4680-89ba-b66173fd1f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils">
+      <UniqueIdentifier>{828cf9dc-4b03-4e14-bf24-3ab8fc087b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\hooks">
+      <UniqueIdentifier>{4fa203f9-af33-4b30-afa4-4c11d8368dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{761bf041-3595-42cb-96cd-937a550d3f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui">
+      <UniqueIdentifier>{9358f0b5-d15e-496f-b651-0f92e6684a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\tabs">
+      <UniqueIdentifier>{4ddb8208-279f-4b6e-8010-ee7b76b13d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\tabs\misctabs">
+      <UniqueIdentifier>{525a519e-cc7c-4ae1-9f60-440200621054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\misc">
+      <UniqueIdentifier>{947b9800-aa53-43cd-9ee8-2d1de29dbce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\windows">
+      <UniqueIdentifier>{892f090c-8ea8-4be8-ba52-0c9959b6e513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\manipulation">
+      <UniqueIdentifier>{16a51400-8c7f-4ff8-9ceb-18efb3e42309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\menubar">
+      <UniqueIdentifier>{679723d1-ffbe-4826-9569-4c24f0afdf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\menubar\itemstabs">
+      <UniqueIdentifier>{107e3624-2694-46ae-9f7b-35c55f463d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\misc\json_cpp_format">
+      <UniqueIdentifier>{7dfdcba3-973b-400b-b35b-9bea874fbb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\menubar\managers">
+      <UniqueIdentifier>{d04793ca-ad1a-44f6-9b20-3b351677f14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\misc\languages">
+      <UniqueIdentifier>{ab6075d1-00b9-4f93-9d90-4c961f9627ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\handlers">
+      <UniqueIdentifier>{43b63059-03f7-4054-be48-863def05cf55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt">
+      <Filter>core</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

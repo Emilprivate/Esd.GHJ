@@ -1,0 +1,57 @@
+I'm trying to extract information from a website using javascript and then convert it into json format. Give me the entire js code to paste into the console.
+
+Here's the element describing the table:
+document.querySelector("#T-shirts")
+
+Here's the table:
+document.querySelector("#mw-content-text > div.mw-parser-output > div > div:nth-child(2) > table:nth-child(14)")
+
+Here's the t-head, within this head there's a <tr>
+document.querySelector("#mw-content-text > div.mw-parser-output > div > div:nth-child(2) > table:nth-child(14) > thead")
+
+Here's the t-body, within this body there are <tr>'s, within each of these <tr>'s there are <td>'s corresponding to the amount of t-heads each and within each of these <td>'s there might or might not be another <a> or <br> element.
+document.querySelector("#mw-content-text > div.mw-parser-output > div > div:nth-child(2) > table:nth-child(14) > tbody")
+
+
+// WORKING KINDA
+// Get the table element
+const tableElement = document.querySelector("#mw-content-text > div.mw-parser-output > div > div:nth-child(2) > table:nth-child(14)");
+
+// Get the table head (thead) element
+const tableHeadElement = tableElement.querySelector("thead");
+
+// Get the table body (tbody) element
+const tableBodyElement = tableElement.querySelector("tbody");
+
+// Create an array to store the table data
+const tableData = [];
+
+// Get all the rows (tr) in the table body
+const rows = tableBodyElement.querySelectorAll("tr");
+
+// Iterate over each row
+rows.forEach(row => {
+  // Create an object to store the row data
+  const rowData = {};
+
+  // Get all the cells (td) in the row
+  const cells = row.querySelectorAll("td");
+
+  // Iterate over each cell
+  cells.forEach((cell, index) => {
+    // Get the text content of the cell
+    const cellText = cell.textContent.trim();
+
+    // Assign the cell data to the corresponding property in the row object
+    rowData[`column${index + 1}`] = cellText;
+  });
+
+  // Add the row object to the table data array
+  tableData.push(rowData);
+});
+
+// Convert the table data array to JSON string
+const jsonData = JSON.stringify(tableData);
+
+// Output the JSON data
+console.log(jsonData);

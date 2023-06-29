@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\imgui\imgui.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_demo.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_draw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_opengl3.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_win32.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_tables.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\imgui\imgui_widgets.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\imgui\imgui.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_win32.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imgui_internal.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_rectpack.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_textedit.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imstb_truetype.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+    <ClInclude Include="styles.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="defaultstyle.h">
+      <Filter>core\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\imgui\imconfig.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="jvm.h">
+      <Filter>core\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="configsystem.h">
+      <Filter>core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>core\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="verdana.h">
+      <Filter>core\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>core\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="misc2.h">
+      <Filter>core\menu\menutabs\misctabs</Filter>
+    </ClInclude>
+    <ClInclude Include="misc1.h">
+      <Filter>core\menu\menutabs\misctabs</Filter>
+    </ClInclude>
+    <ClInclude Include="skills.h">
+      <Filter>core\menu\menutabs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{183e45d0-f36f-463f-8fad-0ae2ddf028fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu">
+      <UniqueIdentifier>{ab584223-3c9b-4dce-848e-edb9cfd18b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils">
+      <UniqueIdentifier>{d2e34167-1dc2-49ab-b820-2a5e94a7ad78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\hooks">
+      <UniqueIdentifier>{9e6be273-3ffa-4dbc-9269-f27278d3911b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{8dc2eee1-30b3-4b6d-b3b7-d23f11f9f58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui">
+      <UniqueIdentifier>{09913a5a-5b56-4367-84fa-74b445d59e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\resources">
+      <UniqueIdentifier>{b49fa92f-5009-412f-851c-1e8be7a103b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\menutabs">
+      <UniqueIdentifier>{3d80b211-9890-4693-bb0b-42e7a51aa781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\menu\menutabs\misctabs">
+      <UniqueIdentifier>{351d993a-eaa6-4f48-ba34-6cc9c189f5aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
