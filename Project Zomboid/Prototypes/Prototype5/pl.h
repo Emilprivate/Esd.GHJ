@@ -27,6 +27,8 @@ const std::map<std::string, std::string> PL_STRINGS = {
 	{"enable_movables_cheat", "Włącz cheat przenoszenia"},
 	{"god_mode", "God Mode"},
 	{"enable_god_mode", "Włącz god mode dla gracza"},
+	{"zombies_dont_attack", "Zombie Nie Atakują"},
+	{"zombies_dont_attack_tooltip", "Zombie będą cię obierać za cel, ale nie zaatakują cię"},
 	{"no_clip", "No Clip"},
 	{"toggle_no_clip", "Włącz no clip dla gracza"},
 	{"invincible", "Niezniszczalność"},

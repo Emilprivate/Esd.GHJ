@@ -21,14 +21,14 @@ void RenderPlayerTab()
 
     ImGui::Text("Player Modifications");
     ImGui::Separator();
-    RenderCheckboxWithTooltip("God Mode", "setGodMod", config.boolSettings[1], "Enables god mode for the player");
-    RenderCheckboxWithTooltip("No Clip", "setNoClip", config.boolSettings[2], "Allows the player to pass through objects");
-    RenderCheckboxWithTooltip("Invincible", "setInvincible", config.boolSettings[3], "Makes the player invincible");
-    RenderCheckboxWithTooltip("Invisible", "setInvisible", config.boolSettings[4], "Makes the player invisible");
-    RenderCheckboxWithTooltip("Zombies Dont Attack", "setZombiesDontAttack", config.boolSettings[21], "Zombies Wont Attack You");
-    RenderCheckboxWithTooltip("Ghost Mode", "setGhostMode", config.boolSettings[5], "Enables ghost mode for the player");
-    RenderCheckboxWithTooltip("Unlimited Carry", "setUnlimitedCarry", config.boolSettings[6], "Allows the player to carry unlimited items");
-    RenderCheckboxWithTooltip("Unlimited Endurance", "setUnlimitedEndurance", config.boolSettings[7], "Gives the player unlimited endurance");
+    RenderCheckboxWithTooltip(config.localizationManager.getString("god_mode").c_str(), "setGodMod", config.boolSettings[1], config.localizationManager.getString("enable_god_mode").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("no_clip").c_str(), "setNoClip", config.boolSettings[2], config.localizationManager.getString("toggle_no_clip").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("invincible").c_str(), "setInvincible", config.boolSettings[3], config.localizationManager.getString("make_player_invincible").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("invisible").c_str(), "setInvisible", config.boolSettings[4], config.localizationManager.getString("make_player_invisible").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("zombies_dont_attack").c_str(), "setZombiesDontAttack", config.boolSettings[21], config.localizationManager.getString("zombies_dont_attack_tooltip").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("ghost_mode").c_str(), "setGhostMode", config.boolSettings[5], config.localizationManager.getString("enable_ghost_mode").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("unlimited_carry").c_str(), "setUnlimitedCarry", config.boolSettings[6], config.localizationManager.getString("allow_unlimited_carry").c_str());
+    RenderCheckboxWithTooltip(config.localizationManager.getString("unlimited_endurance").c_str(), "setUnlimitedEndurance", config.boolSettings[7], config.localizationManager.getString("give_unlimited_endurance").c_str());
     ImGui::Spacing();
 
     ImGui::EndChild();

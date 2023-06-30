@@ -1,0 +1,41 @@
+General commands and server commands related field, might be worth looking at :
+https://github.com/Ketum-Git/PZ-Javacode/tree/main/PZ_41.78/zombie/commands
+
+Gamestates related :
+https://github.com/Ketum-Git/PZ-Javacode/tree/main/PZ_41.78/zombie/gameStates
+
+Debug related :
+https://github.com/Ketum-Git/PZ-Javacode/tree/main/PZ_41.78/zombie/debug
+
+IsoGameCharacter : 
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/IsoGameCharacter.java
+
+IsoPlayer : 
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/IsoPlayer.java
+
+NetworkCharacter : 
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/NetworkCharacter.java
+
+IsoZombie :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/IsoZombie.java
+
+PerkFactory :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/skills/PerkFactory.java
+
+ProfessionFactory :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/professions/ProfessionFactory.java
+
+TraitFactory :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/characters/traits/TraitFactory.java
+
+GameWindow :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/GameWindow.java
+
+GameProfiler :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/GameProfiler.java
+
+FPSTracking :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/FPSTracking.java
+
+DebugLog :
+https://github.com/Ketum-Git/PZ-Javacode/blob/main/PZ_41.78/zombie/debug/DebugLog.java

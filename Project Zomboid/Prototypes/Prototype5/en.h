@@ -33,6 +33,8 @@ const std::map<std::string, std::string> EN_STRINGS = {
     {"make_player_invincible", "Make the player invincible"},
     {"invisible", "Invisible"},
     {"make_player_invisible", "Make the player invisible"},
+    {"zombies_dont_attack", "Zombies Dont Attack"},
+    {"zombies_dont_attack_tooltip", "Zombies will target you but wont attack you"},
     {"ghost_mode", "Ghost Mode"},
     {"enable_ghost_mode", "Enable ghost mode for the player"},
     {"unlimited_carry", "Unlimited Carry"},

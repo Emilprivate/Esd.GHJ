@@ -50,18 +50,11 @@ bool IsValidField(const char* field) {
     return false;
 }
 
-void RenderCheckboxWithTooltipAndValidityCheck(const char* checkbox_text, bool& checkbox_value, const char* tooltip_text, const char* perk)
+void RenderCheckboxWithTooltipAndValidityCheck(const char* checkbox_text, const char* command, bool& checkbox_value, const char* tooltip_text)
 {
     if (ImGui::Checkbox(checkbox_text, &checkbox_value))
     {
-        if (IsValidField(perk))
-        {
-            CallVoidMethodOnPlayer(perk, checkbox_value);
-        }
-        else
-        {
-            std::cout << "[!] Perk field not found!\n";
-        }
+        CallVoidMethodOnPlayer(command, checkbox_value);
     }
 
     if (ImGui::IsItemHovered())
@@ -181,11 +174,11 @@ void RenderSkillsTab()
     ImGui::Text("Cheat Options");
     ImGui::Separator();
 
-    RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("build_cheat").c_str(), config.boolSettings[10], config.localizationManager.getString("enable_build_cheat").c_str(), "build_cheat");
-    RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("farming_cheat").c_str(), config.boolSettings[11], config.localizationManager.getString("enable_farming_cheat").c_str(), "farming_cheat");
-    RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("health_cheat").c_str(), config.boolSettings[12], config.localizationManager.getString("enable_health_cheat").c_str(), "health_cheat");
-    RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("mechanics_cheat").c_str(), config.boolSettings[13], config.localizationManager.getString("enable_mechanics_cheat").c_str(), "mechanics_cheat");
-    RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("movables_cheat").c_str(), config.boolSettings[14], config.localizationManager.getString("enable_movables_cheat").c_str(), "movables_cheat");
+	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("build_cheat").c_str(), "setBuildCheat", config.boolSettings[10], config.localizationManager.getString("enable_build_cheat").c_str());
+	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("farming_cheat").c_str(), "setFarmingCheat", config.boolSettings[11], config.localizationManager.getString("enable_farming_cheat").c_str());
+	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("health_cheat").c_str(), "setHealthCheat", config.boolSettings[12], config.localizationManager.getString("enable_health_cheat").c_str());
+	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("mechanics_cheat").c_str(), "setMechanicsCheat", config.boolSettings[13], config.localizationManager.getString("enable_mechanics_cheat").c_str());
+	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("movables_cheat").c_str(), "setMovablesCheat", config.boolSettings[14], config.localizationManager.getString("enable_movables_cheat").c_str());
 
     ImGui::Spacing();
 

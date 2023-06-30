@@ -34,6 +34,8 @@ const std::map<std::string, std::string> RU_STRINGS = {
     {"invisible", "Невидимость"},
     {"make_player_invisible", "Сделать игрока невидимым"},
     {"ghost_mode", "Режим призрака"},
+    {"zombies_dont_attack", "Зомби Не Атакуют"},
+    {"zombies_dont_attack_tooltip", "Зомби будут нацеливаться на вас, но не будут атаковать вас"},
     {"enable_ghost_mode", "Включить режим призрака для игрока"},
     {"unlimited_carry", "Неограниченное переносимое"},
     {"allow_unlimited_carry", "Разрешить игроку переносить неограниченное количество предметов"},

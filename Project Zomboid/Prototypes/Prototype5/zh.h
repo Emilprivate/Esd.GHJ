@@ -35,6 +35,8 @@ const std::map<std::string, std::string> CN_STRINGS = {
     {"make_player_invisible", "使小人隐身"},
     {"ghost_mode", "幽灵模式"},
     {"enable_ghost_mode", "为小人启用幽灵模式"},
+    {"zombies_dont_attack", "僵尸不攻击"},
+    {"zombies_dont_attack_tooltip", "僵尸会把你当作目标，但不会攻击你"},
     {"unlimited_carry", "无限携带"},
     {"allow_unlimited_carry", "允许小人携带无限物品"},
     {"unlimited_endurance", "无限耐力"},

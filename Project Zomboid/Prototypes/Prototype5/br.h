@@ -36,6 +36,8 @@ const std::map<std::string, std::string> BR_STRINGS = {
     {"make_player_invisible", "Tornar o jogador invisível"},
     {"ghost_mode", "Modo fantasma"},
     {"enable_ghost_mode", "Habilita o modo fantasma para o jogador"},
+    {"zombies_dont_attack", "Zumbis Não Atacam"},
+    {"zombies_dont_attack_tooltip", "Zumbis irão te mirar mas não vão te atacar"},
     {"unlimited_carry", "Carga Ilimitada"},
     {"allow_unlimited_carry", "Permitir que o jogador carregue itens ilimitados"},
     {"unlimited_endurance", "Resistência Ilimitada"},
