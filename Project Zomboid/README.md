@@ -46,6 +46,7 @@ cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
     - Libraries\GLx64
     - Libraries\GLx86
     - Libraries\Minhook\bin
+    - Libraries\json\json.h
 -> Linker->Input
   - "Additional Dependencies"
     - MinHook.x64.lib
