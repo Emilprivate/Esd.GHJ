@@ -1,5 +1,5 @@
 # Esd.GHJ
-This GitHub project, "Esd.GHJ," is a comprehensive repository dedicated to my journey in game hacking
+This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking
 
 ## Contributing
 We welcome contributions from the community to improve Esd.GHJ. Whether you're fixing a bug, implementing a new feature, or enhancing documentation, your contribution is valuable. Follow the steps below to contribute:
