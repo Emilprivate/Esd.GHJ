@@ -83,15 +83,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\redfa\OneDrive\Skrivebord\GameHacking Projects\Libraries\json;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Cheats\Esd.PZ Private\json_cpp_format;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Libraries\json;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\stb;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MinHook.x64.lib;MinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\opengl\x64;$(SolutionDir)Libs\opengl\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\Libs\minhook\x86\debug\libMinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,16 +103,17 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\redfa\OneDrive\Skrivebord\GameHacking Projects\Libraries\json;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Cheats\Esd.PZ Private\json_cpp_format;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Libraries\json;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\stb;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MinHook.x64.lib;MinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\opengl\x64;$(SolutionDir)Libs\opengl\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\Libs\minhook\x86\release\libMinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -120,15 +122,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\redfa\OneDrive\Skrivebord\GameHacking Projects\Libraries\json;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Cheats\Esd.PZ Private\json_cpp_format;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Libraries\json;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\stb;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MinHook.x64.lib;MinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\opengl\x64;$(SolutionDir)Libs\opengl\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\Libs\minhook\x64\debug\libMinHook.x64.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,41 +142,51 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\redfa\OneDrive\Skrivebord\GameHacking Projects\Libraries\json;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Cheats\Esd.PZ Private\json_cpp_format;C:\Users\redfa\OneDrive\Skrivebord\PrivateGH Projects\Libraries\json;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\stb;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\ImGui;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\include;</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files\Java\jdk-20\include\win32;C:\Program Files\Java\jdk-20\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx64;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\GLx86;E:\Onedrive backup\Personal\GitHub\Esd.GHJ\Project Zomboid\Libraries\Minhook\bin;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MinHook.x64.lib;MinHook.x86.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\opengl\x64;$(SolutionDir)Libs\opengl\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\Libs\minhook\x64\release\libMinHook.x64.lib;Shell32.lib;Comdlg32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Libraries\imgui\imgui.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_demo.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_draw.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_win32.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_tables.cpp" />
-    <ClCompile Include="..\..\Libraries\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Libs\imgui\imgui.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_demo.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_draw.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_tables.cpp" />
+    <ClCompile Include="Libs\imgui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Libraries\imgui\imconfig.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imgui.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3_loader.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_win32.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imgui_internal.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imstb_rectpack.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imstb_textedit.h" />
-    <ClInclude Include="..\..\Libraries\imgui\imstb_truetype.h" />
     <ClInclude Include="about.h" />
     <ClInclude Include="br.h" />
     <ClInclude Include="chinese.h" />
+    <ClInclude Include="Libs\imgui\imconfig.h" />
+    <ClInclude Include="Libs\imgui\imgui.h" />
+    <ClInclude Include="Libs\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Libs\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="Libs\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="Libs\imgui\imgui_internal.h" />
+    <ClInclude Include="Libs\imgui\imstb_rectpack.h" />
+    <ClInclude Include="Libs\imgui\imstb_textedit.h" />
+    <ClInclude Include="Libs\imgui\imstb_truetype.h" />
+    <ClInclude Include="Libs\json\json.h" />
+    <ClInclude Include="Libs\minhook\MinHook.h" />
+    <ClInclude Include="Libs\opengl\x64\glew.h" />
+    <ClInclude Include="Libs\opengl\x64\glxew.h" />
+    <ClInclude Include="Libs\opengl\x64\wglew.h" />
+    <ClInclude Include="Libs\opengl\x86\glew.h" />
+    <ClInclude Include="Libs\opengl\x86\glxew.h" />
+    <ClInclude Include="Libs\opengl\x86\wglew.h" />
+    <ClInclude Include="Libs\stb\stb_image.h" />
     <ClInclude Include="pl.h" />
     <ClInclude Include="playerhandler.h" />
     <ClInclude Include="ru.h" />
@@ -220,6 +233,14 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\minhook\x64\debug\libMinHook.x64.lib" />
+    <Library Include="Libs\minhook\x64\release\libMinHook.x64.lib" />
+    <Library Include="Libs\minhook\x86\debug\libMinHook.x86.lib" />
+    <Library Include="Libs\minhook\x86\release\libMinHook.x86.lib" />
+    <Library Include="Libs\opengl\x64\glew32s.lib" />
+    <Library Include="Libs\opengl\x86\glew32s.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,79 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\settings.h(19,19): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\settings.h(21,135): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\settings.h(51,22): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\settings.h(53,146): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\playerslist_window.h(180,34): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\playerslist_window.h(181,35): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\terminal.h(36,120): warning C4390: ";": Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\main.cpp(35,26): warning C4244: "return": Konvertierung von "LRESULT" in "int", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(2765,53): warning C4244: "Argument": Konvertierung von "wchar_t" in "const _Elem", möglicher Datenverlust
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(2621,17): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)" der Funktions-Vorlage.
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\configsystem.h(31,31): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" der Funktions-Vorlage.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\configsystem.h(31,31): message : Ersten Verweis auf "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" in "GetConfigFolderPath" anzeigen
+  Code wird generiert...
+  libMinHook.x64.lib(hook.obj) : Es wurde ein mit /GL kompiliertes MSIL .netmodule oder module gefunden. Verknüpfung wird mit /LTCG erneut gestartet. Fügen Sie /LTCG zur Linkbefehlszeile hinzu, um die Linkerleistung zu erhöhen.
+     Bibliothek "C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\x64\Release\Prototype5.lib" und Objekt "C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\x64\Release\Prototype5.exp" werden erstellt.
+LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  Code wird generiert.
+  Codegenerierung ist abgeschlossen.
+glew32s.lib(glew.obj) : warning LNK4099: PDB "" wurde nicht mit "glew32s.lib(glew.obj)" oder an "" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+LINK : warning LNK4286: Das in "__glewActiveTexture" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBlendEquation" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBlendFuncSeparate" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBindBuffer" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBufferData" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDeleteBuffers" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGenBuffers" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewAttachShader" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBlendEquationSeparate" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewCompileShader" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewCreateProgram" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewCreateShader" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDeleteProgram" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDeleteShader" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDetachShader" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewEnableVertexAttribArray" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetAttribLocation" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetProgramInfoLog" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetProgramiv" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetShaderInfoLog" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetShaderiv" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetUniformLocation" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewLinkProgram" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewShaderSource" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewUniform1i" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewUniformMatrix4fv" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewUseProgram" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewVertexAttribPointer" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGetStringi" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDrawElementsBaseVertex" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBindSampler" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewBindVertexArray" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewDeleteVertexArrays" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+LINK : warning LNK4286: Das in "__glewGenVertexArrays" definierte Symbol "glew32s.lib(glew.obj)" wird durch "imgui_impl_opengl3.obj" importiert.
+  Prototype5.vcxproj -> C:\Users\gamin\Desktop\Project Zomboid Collab\Project Zomboid\Prototypes\Prototype5\x64\Release\Prototype5.dll

@@ -4,56 +4,29 @@
     <ClCompile Include="main.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_demo.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_demo.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_draw.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_draw.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_opengl3.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_impl_win32.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_impl_win32.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_tables.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_tables.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Libraries\imgui\imgui_widgets.cpp">
-      <Filter>libraries\imgui</Filter>
+    <ClCompile Include="Libs\imgui\imgui_widgets.cpp">
+      <Filter>Libs\imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Libraries\imgui\imstb_truetype.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imconfig.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imgui.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_opengl3_loader.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imgui_impl_win32.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imgui_internal.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imstb_rectpack.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Libraries\imgui\imstb_textedit.h">
-      <Filter>libraries\imgui</Filter>
-    </ClInclude>
     <ClInclude Include="styles.h">
       <Filter>core\menu\tabs</Filter>
     </ClInclude>
@@ -192,6 +165,60 @@
     <ClInclude Include="playerhandler.h">
       <Filter>core\handlers</Filter>
     </ClInclude>
+    <ClInclude Include="Libs\stb\stb_image.h">
+      <Filter>Libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x86\glew.h">
+      <Filter>Libs\opengl\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x86\glxew.h">
+      <Filter>Libs\opengl\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x86\wglew.h">
+      <Filter>Libs\opengl\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x64\glew.h">
+      <Filter>Libs\opengl\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x64\glxew.h">
+      <Filter>Libs\opengl\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\opengl\x64\wglew.h">
+      <Filter>Libs\opengl\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\MinHook.h">
+      <Filter>Libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\json\json.h">
+      <Filter>Libs\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imconfig.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui_impl_opengl3.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui_impl_win32.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui_internal.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_rectpack.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_textedit.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_truetype.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="core">
@@ -205,12 +232,6 @@
     </Filter>
     <Filter Include="core\hooks">
       <UniqueIdentifier>{4fa203f9-af33-4b30-afa4-4c11d8368dd3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="libraries">
-      <UniqueIdentifier>{761bf041-3595-42cb-96cd-937a550d3f4a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="libraries\imgui">
-      <UniqueIdentifier>{9358f0b5-d15e-496f-b651-0f92e6684a0f}</UniqueIdentifier>
     </Filter>
     <Filter Include="core\menu\tabs">
       <UniqueIdentifier>{4ddb8208-279f-4b6e-8010-ee7b76b13d66}</UniqueIdentifier>
@@ -245,10 +266,72 @@
     <Filter Include="core\handlers">
       <UniqueIdentifier>{43b63059-03f7-4054-be48-863def05cf55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{761bf041-3595-42cb-96cd-937a550d3f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\imgui">
+      <UniqueIdentifier>{9358f0b5-d15e-496f-b651-0f92e6684a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\json">
+      <UniqueIdentifier>{44e0ab63-ec21-4f28-9480-c505d6e7e90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook">
+      <UniqueIdentifier>{d140c838-aa16-4b2d-ab9f-cc4762046f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\opengl">
+      <UniqueIdentifier>{52d7009b-1563-438e-82b0-65e1abef35c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\stb">
+      <UniqueIdentifier>{b69d1997-3a1e-4392-9717-fbea2fe39127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\opengl\x64">
+      <UniqueIdentifier>{03188310-8464-4c2e-b518-fd550a271f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\opengl\x86">
+      <UniqueIdentifier>{577b2ca8-cd14-45f3-9f31-85198d1f7a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x64">
+      <UniqueIdentifier>{3dcb1cc2-b7fa-4508-b895-2374657fc048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x86">
+      <UniqueIdentifier>{6ec28502-a019-429c-bf11-b3621996e604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x86\debug">
+      <UniqueIdentifier>{f8e6769b-6b98-425a-bcec-62e42ee5a3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x86\release">
+      <UniqueIdentifier>{04eb6907-f2ad-4906-a417-e585d23e79f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x64\debug">
+      <UniqueIdentifier>{2f26852a-a2e8-4883-ba7d-895f246ad83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\x64\release">
+      <UniqueIdentifier>{0a29fbb4-0c1d-4f5d-8fae-0b072a9e5051}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="TODO.txt">
       <Filter>core</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\opengl\x86\glew32s.lib">
+      <Filter>Libs\opengl\x86</Filter>
+    </Library>
+    <Library Include="Libs\opengl\x64\glew32s.lib">
+      <Filter>Libs\opengl\x64</Filter>
+    </Library>
+    <Library Include="Libs\minhook\x86\debug\libMinHook.x86.lib">
+      <Filter>Libs\minhook\x86\debug</Filter>
+    </Library>
+    <Library Include="Libs\minhook\x86\release\libMinHook.x86.lib">
+      <Filter>Libs\minhook\x86\release</Filter>
+    </Library>
+    <Library Include="Libs\minhook\x64\debug\libMinHook.x64.lib">
+      <Filter>Libs\minhook\x64\debug</Filter>
+    </Library>
+    <Library Include="Libs\minhook\x64\release\libMinHook.x64.lib">
+      <Filter>Libs\minhook\x64\release</Filter>
+    </Library>
   </ItemGroup>
 </Project>
