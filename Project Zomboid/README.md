@@ -21,7 +21,7 @@ git clone https://github.com/Emilprivate/Esd.GHJ.git
 ```
 cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
 ```
-3) Configure Visual Studio with the libraries
+3) Configure Visual Studio with the libraries (You may not need to do any of this anymore, but in-case you do it's here):
 ```
 1) Project -> Properties
 
