@@ -1,3 +1,9 @@
+<h1 align="center">Esd.GHJ</h1>
+
+<p align="center">
+  <img src="https://i.imgur.com/2IQzLtv.png" width="500">
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/github/v/release/Emilprivate/Esd.GHJ" alt="GitHub release (latest by date)">
   <img src="https://img.shields.io/github/license/Emilprivate/Esd.GHJ" alt="GitHub">
@@ -5,12 +11,6 @@
   <img src="https://img.shields.io/github/issues/Emilprivate/Esd.GHJ" alt="GitHub issues">
   <img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social alt="C++20">
 </p>
-
-<p align="center">
-  <img src="https://i.imgur.com/2IQzLtv.png">
-</p>
-
-<h1 align="center">Esd.GHJ</h1>
 
 <p align="center">
 This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking.
