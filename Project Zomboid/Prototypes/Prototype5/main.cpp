@@ -1,32 +1,46 @@
 #include "includes.h"
 
-DWORD WINAPI Initialization(LPVOID lpParameter)
+DWORD WINAPI Initialization(HMODULE hModule)
 {
-    while (GetModuleHandle("opengl32.dll") == NULL)
+    while (GetModuleHandleW(L"opengl32.dll") == NULL)
     {
-        Sleep(0);
+        Sleep(1);
     }
 
-    HMODULE hMod = GetModuleHandle("opengl32.dll");
-    if (hMod)
+    HMODULE hOpenGL32 = GetModuleHandleW(L"opengl32.dll");
+    if (hOpenGL32)
     {
-        void* ptr = GetProcAddress(hMod, "wglSwapBuffers");
-        MH_Initialize();
-        MH_CreateHook(ptr, hkSwapBuffers, reinterpret_cast<void**>(&oSwapBuffers));
-        MH_EnableHook(ptr);
-        do
+        if (MH_Initialize() == MH_OK)
         {
-            Window = GetProcessWindow();
-            Sleep(0);
-        } while (Window == NULL);
+            void* pSwapBuffersRoutine = GetProcAddress(hOpenGL32, "wglSwapBuffers");
+            if (MH_CreateHook(pSwapBuffersRoutine, hkSwapBuffers, reinterpret_cast<void**>(&oSwapBuffers)) == MH_OK)
+            {
+                if (MH_EnableHook(pSwapBuffersRoutine) == MH_OK) 
+                {
+                    do
+                    {
+                        Window = GetProcessWindow();
+                        Sleep(1);
+                    } while (Window == NULL);
 
-        oWndProc = reinterpret_cast<WNDPROC>(SetWindowLongPtr(Window, GWL_WNDPROC, reinterpret_cast<LONG_PTR>(WndProc)));
-        return TRUE;
+                    oWndProc = reinterpret_cast<WNDPROC>(SetWindowLongPtrA(Window, GWL_WNDPROC, reinterpret_cast<LONG_PTR>(WndProc)));
+                    return TRUE;
+                }
+                else
+                {
+                    MH_RemoveHook(pSwapBuffersRoutine);
+                    MH_Uninitialize();
+                }
+            }
+            else
+            {
+                MH_Uninitialize();
+            }
+        }
     }
-    else
-    {
-        return FALSE;
-    }
+
+    FreeLibraryAndExitThread(hModule, EXIT_FAILURE);
+    return FALSE; //will never be called...
 }
 
 // Thanks to: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowshookexa
@@ -35,22 +49,22 @@ extern "C" __declspec(dllexport) int setWindowsHook(int code, WPARAM wParam, LPA
     return CallNextHookEx(NULL, code, wParam, lParam);
 }
 
-BOOL APIENTRY DllMain(HMODULE hModule, DWORD callReason, LPVOID lpReserved)
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwCallReason, LPVOID lpReserved)
 {
-    switch (callReason)
+    switch (dwCallReason)
     {
     case DLL_PROCESS_ATTACH:
     {
         DisableThreadLibraryCalls(hModule);
-
-        HANDLE hThread = CreateThread(NULL, 0, Initialization, NULL, 0, NULL);
+        
+        HANDLE hThread = CreateThread(nullptr, 0, (LPTHREAD_START_ROUTINE)Initialization, hModule, 0, nullptr);
         if (hThread != NULL)
         {
             CloseHandle(hThread);
         }
         else
         {
-            // TO-DO: Handle thread creation error
+            MessageBoxW(NULL, L"Failed to create thread.", L"Critical Error", MB_OK | MB_ICONERROR);
             return FALSE;
         }
         break;
