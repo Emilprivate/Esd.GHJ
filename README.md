@@ -2,8 +2,8 @@
   <img src="https://img.shields.io/github/v/release/Emilprivate/Esd.GHJ" alt="GitHub release (latest by date)">
   <img src="https://img.shields.io/github/license/Emilprivate/Esd.GHJ" alt="GitHub">
   <img src="https://img.shields.io/github/commit-activity/t/Emilprivate/Esd.GHJ" alt="GitHub commit activity (branch)">
-  <img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social alt="C++20">
   <img src="https://img.shields.io/github/issues/Emilprivate/Esd.GHJ" alt="GitHub issues">
+  <img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social alt="C++20">
 </p>
 
 # Esd.GHJ
