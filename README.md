@@ -25,7 +25,7 @@ Esd.GHJ is an open-source project developed and maintained by hobbyists and volu
 
 Your contributions will help compensate for the time and resources put into the project. Donations also demonstrate your appreciation and motivate us to deliver more value to the community.
 
-You can make donations on our [Patreon](https://www.patreon.com/redfane/membership). We greatly appreciate your support!
+You can make donations on our [Patreon](https://www.patreon.com/redfane). We greatly appreciate your support!
 
 ## License
 This project is licensed under the MIT License.
