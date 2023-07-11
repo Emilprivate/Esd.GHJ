@@ -6,8 +6,15 @@
   <img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social alt="C++20">
 </p>
 
-# Esd.GHJ
-This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking
+<p align="center">
+  <img src="https://i.imgur.com/2IQzLtv.png">
+</p>
+
+<h1 align="center">Esd.GHJ</h1>
+
+<p align="center">
+This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking.
+</p>
 
 ## Contributing
 We welcome contributions from the community to improve Esd.GHJ. Whether you're fixing a bug, implementing a new feature, or enhancing documentation, your contribution is valuable. Follow the steps below to contribute:
