@@ -16,6 +16,9 @@
 This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking.
 </p>
 
+## Loader
+Check out the loader made by my partner in the project: [Loader](https://github.com/okieeee/PZ-Injector)
+
 ## Contributing
 We welcome contributions from the community to improve Esd.GHJ. Whether you're fixing a bug, implementing a new feature, or enhancing documentation, your contribution is valuable. Follow the steps below to contribute:
 
