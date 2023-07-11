@@ -19,3 +19,13 @@ If you encounter any issues with the project or have suggestions for improvement
 3) Provide a clear and descriptive title for the issue.
 4) Describe the issue or suggestion in detail, including steps to reproduce if it's a bug.
 5) Submit the issue, and our team will review it and respond as soon as possible.
+
+## Donations
+Esd.GHJ is an open-source project developed and maintained by hobbyists and volunteers. If you find this project useful and would like to support its continued development, we accept donations of any amount.
+
+Your contributions will help compensate for the time and resources put into the project. Donations also demonstrate your appreciation and motivate us to deliver more value to the community.
+
+You can make donations on our [Patreon](https://www.patreon.com/redfane/membership). We greatly appreciate your support!
+
+## License
+This project is licensed under the MIT License.
