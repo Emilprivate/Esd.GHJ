@@ -1,5 +1,4 @@
 #define STB_IMAGE_IMPLEMENTATION
-#define _CRT_SECURE_NO_WARNINGS
 
 #include <Windows.h>
 #include <iostream>
@@ -25,11 +24,11 @@
 
 #define GLEW_STATIC
 #if defined _M_X64
-#include "glew.h"
-#pragma comment(lib, "../../Libraries/GLx64/glew32s.lib")
+#include "Libs/opengl/x64/glew.h"
+#pragma comment(lib, "Libs/opengl/x64/glew32s.lib")
 #elif defined _M_IX86
-#include "glew.h"
-#pragma comment(lib, "../../Libraries/GLx86/glew32s.lib")
+#include "Libs/opengl/x86/glew.h"
+#pragma comment(lib, "Libs/opengl/x86/glew32s.lib")
 #endif
 #include <gl/gl.h> 
 #pragma comment(lib,"opengl32.lib")
@@ -47,13 +46,13 @@ typedef LRESULT(CALLBACK* WNDPROC)(HWND, UINT, WPARAM, LPARAM);
 #include "chinese.h"
 
 //libs
-#include "MinHook.h"
-#include "imgui.h"
-#include "imgui_impl_opengl3.h"
-#include "imgui_impl_win32.h"
+#include "Libs/minhook/MinHook.h"
+#include "Libs/imgui/imgui.h"
+#include "Libs/imgui/imgui_impl_opengl3.h"
+#include "Libs/imgui/imgui_impl_win32.h"
 #include <jni.h>
-#include <stb_image.h>
-#include <json.h>
+#include "Libs/stb/stb_image.h"
+#include "Libs/json/json.h"
 
 using json = nlohmann::json;
 
