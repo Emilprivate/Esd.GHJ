@@ -4,7 +4,7 @@ This is a cheat for Project Zomboid
 ### [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
 ### [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
 
-<img ref="https://imgur.com/a/Dx1z5Wh" />
+![Cheat Menu](https://imgur.com/a/Dx1z5Wh)
 
 ## Installation guide
 
