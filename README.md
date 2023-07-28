@@ -1,7 +1,7 @@
 <h1 align="center">Esd.GHJ</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/2IQzLtv.png" width="450", height="400">
+  <img src="GHJ-Icon.png" width="450", height="400">
 </p>
 
 <p align="center">
