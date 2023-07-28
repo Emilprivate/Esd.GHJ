@@ -3,10 +3,6 @@
 ![](https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png)
 
 <p align="center">
-  <img src="https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png" width="450", height="400">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/github/v/release/Emilprivate/Esd.GHJ" alt="GitHub release (latest by date)">
   <img src="https://img.shields.io/github/license/Emilprivate/Esd.GHJ" alt="GitHub">
   <img src="https://img.shields.io/github/commit-activity/t/Emilprivate/Esd.GHJ" alt="GitHub commit activity (branch)">
