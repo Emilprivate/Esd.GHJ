@@ -1,7 +1,7 @@
 <h1 align="center">Esd.GHJ</h1>
 
 <p align="center">
-  <img src="GHJ-Icon.png" width="450", height="400">
+  <img src="https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png" width="450", height="400">
 </p>
 
 <p align="center">
