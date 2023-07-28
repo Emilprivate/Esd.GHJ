@@ -1,6 +1,5 @@
 <h1 align="center">Esd.GHJ</h1>
-
-[!Alt](https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png)
+![](https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png)
 
 <p align="center">
   <img src="https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png" width="450", height="400">
