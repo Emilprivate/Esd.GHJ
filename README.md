@@ -1,6 +1,6 @@
 <h1 align="center">Esd.GHJ</h1>
 
-![](https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon.png)
+![](https://github.com/Emilprivate/Esd.GHJ/blob/main/GHJ-Icon-Wide.png)
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/Emilprivate/Esd.GHJ" alt="GitHub release (latest by date)">
