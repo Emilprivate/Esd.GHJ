@@ -16,9 +16,6 @@ This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehe
 
 ## [My UnknownCheats](https://www.unknowncheats.me/forum/members/2173018.html)
 
-## Loader
-Check out the loader made by my partner Okie in the project: [Loader](https://github.com/okieeee/PZ-Injector)
-
 ## Contributing
 We welcome contributions from the community to improve Esd.GHJ. Whether you're fixing a bug, implementing a new feature, or enhancing documentation, your contribution is valuable. Follow the steps below to contribute:
 
