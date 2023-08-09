@@ -6,6 +6,9 @@ This is a cheat for Project Zomboid
 
 ![Cheat Menu](https://i.imgur.com/owsw0ni.png)
 
+## Loader
+Check out the loader made by my partner Okie in the project: [Loader](https://github.com/okieeee/PZ-Injector)
+
 ## Installation guide
 
 ### Requirements:
