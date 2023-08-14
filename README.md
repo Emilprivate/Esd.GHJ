@@ -15,9 +15,8 @@ This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehe
 </p>
 
 <p align="center">
-  <h2><a href="https://www.unknowncheats.me/forum/members/2173018.html">My UnknownCheats</a></h2>
+<a href="https://www.unknowncheats.me/forum/members/2173018.html">My UnknownCheats</a>
 </p>
-
 
 ## Contributing
 We welcome contributions from the community to improve Esd.GHJ. Whether you're fixing a bug, implementing a new feature, or enhancing documentation, your contribution is valuable. Follow the steps below to contribute:
