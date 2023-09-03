@@ -1,20 +1,28 @@
+<div align="center">
+
 # Esd.PZ - Project Zomboid
-This is a cheat for Project Zomboid
+*Cheat for Project Zomboid*
 
-### [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
-### [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
+[![Cheat Menu](https://i.imgur.com/owsw0ni.png)]()
 
-![Cheat Menu](https://i.imgur.com/owsw0ni.png)
+---
+
+**Links**:
+- 📝 [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
+- 🎥 [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
 
 ## Loader
-Check out the loader made by my partner Okie in the project: [Loader](https://github.com/okieeee/PZ-Injector)
+> Check out the loader made by my partner Okie in the project: [Loader](https://github.com/okieeee/PZ-Injector)
 
-## Installation guide
+## Installation Guide
 
 ### Requirements:
 - [Visual Studio](https://visualstudio.microsoft.com/free-developer-offers/)
-   - C++14 minimum
+   - Requires C++14 minimum
 - [JDK 20](https://www.oracle.com/java/technologies/downloads/)
+
+</div>
+
 
 ### Installation
 
