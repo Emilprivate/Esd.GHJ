@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-This GitHub project, "Esd.GHJ," stands for "Game hacking journey", is a comprehensive repository dedicated to my journey in game hacking.
+This GitHub project, "Esd.GHJ," stands for "game hacking journey", which is a repository dedicated to my journey in game hacking.
 </p>
 
 <p align="center">
