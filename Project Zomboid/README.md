@@ -5,73 +5,43 @@
 
 [![Cheat Menu](https://i.imgur.com/owsw0ni.png)]()
 
-</div>
-
-**Links**:
-- 📝 [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
-- 🎥 [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
-
-
+📝 [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
+🎥 [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
 
 ## Loader
-> Check out the loader made by my partner Okie in the project: [Loader](https://github.com/okieeee/PZ-Injector)
+Check out the loader made by Okie: [Loader](https://github.com/okieeee/PZ-Injector)
+
+___
 
 ## Installation Guide
-
 ### Requirements:
-- [Visual Studio](https://visualstudio.microsoft.com/free-developer-offers/)
-   - Requires C++14 minimum
-- [JDK 20](https://www.oracle.com/java/technologies/downloads/)
-
+[Visual Studio](https://visualstudio.microsoft.com/free-developer-offers/) &
+[JDK](https://www.oracle.com/java/technologies/downloads/)
 
 
 
 ### Installation
+First ensure that `Configuration` is set to `All Configurations` and `Platform` is set to `x64`
 
-1) Clone the entire repository
-```
-git clone https://github.com/Emilprivate/Esd.GHJ.git
-```
-2) Open the Visual Studio project file
-```
-cd Project Zomboid->Prototypes->Prototype<version>->./Prototype<version>.sln
-```
-3) Configure Visual Studio with the libraries (You may not need to do any of this anymore, but in-case you do it's here):
-```
-1) Project -> Properties
+___
 
-2) Configuration
-- At the top left corner click the dropdown menu and select "All Configurations", also select "All Platforms" on the right.
+**Adjust the JDK with the version you have and paste this into `VC++ Directories`**
 
-3) Include paths
--> C/C++
-- Make sure to include all the library include related file paths inside of "Additional Include Directories"
-  - Include related file paths:
-    - Libraries\stb
-    - Libraries\GLx64
-    - Libraries\GLx86
-    - Libraries\ImGui
-    - Libraries\Minhook\include
-    - jdk-20\include\win32
-    - jdk-20\include
+`C:\Program Files\Java\jdk-22\include\win32;C:\Program Files\Java\jdk-22\include;$(ProjectDir)\Resources\json_cpp_format;$(ProjectDir)\Resources\libraries\json;$(ProjectDir)\Resources\libraries\imgui;$(ProjectDir)\Resources\libraries\opengl\x64;$(ProjectDir)\Resources\libraries\minhook\;$(ProjectDir)\Resources\libraries\stb;$(IncludePath)`
 
-4) Linker paths
--> Linker
-- Make sure to include all the library linker related file paths inside of "Additional Library Directories"
-  - Linker related file paths:
-    - Libraries\GLx64
-    - Libraries\GLx86
-    - Libraries\Minhook\bin
-    - Libraries\json\json.h
--> Linker->Input
-  - "Additional Dependencies"
-    - MinHook.x64.lib
-    - MinHook.x86.lib
+___
 
-5) Additional checks:
-- Make sure that Configuration Properties -> Advanced -> "Character Set" is set to "Use Multi-Byte Character Set"
+Paste this into `Library Directories`
 
-- Make sure that Configuration Properties -> General -> "Configuration Type" is set to Dynamic Library (.dll), and C++ Language Standard is set to a minimum of C++14 Standard.
+`$(ProjectDir)\Resources\libraries\minhook\x64\debug;$(ProjectDir)\Resources\libraries\opengl\x64;$(LibraryPath)`
 
-- Make sure that Minhook->bin->MinHook.x64.dll & MinHook.x86.dll are in their respective compilation folders. If you're compiling as x86, then make sure that you add the x86.dll file of MinHook inside there and inject EsdPZ / Prototype<version> while the MinHook dll is in the folder.
-```
+___
+
+Paste this into `Linker->Input`
+
+`libMinHook.x64.lib;glew32s.lib;Shell32.lib;Comdlg32.lib;%(AdditionalDependencies)`
+
+</div>
+
+
+
