@@ -108,7 +108,7 @@ const std::map<std::string, std::string> CN_STRINGS = {
     { "context_add", "添加" },
     { "item_added", "[+] [x%d] | 添加物品" },
     { "item_text", "物品：%s" },
-    { "main_window_title", "Esd.PZ | 第五代版本" },
+    { "main_window_title", "Esd.PZ | Release 1.0" },
     { "menu_items", "物品" },
     { "menu_playerslist", "小人列表" },
     { "tab_player", "小人" },

@@ -38,10 +38,10 @@ typedef BOOL(__stdcall* twglSwapBuffers) (_In_ HDC hDc);
 typedef LRESULT(CALLBACK* WNDPROC)(HWND, UINT, WPARAM, LPARAM);
 
 //font&icon
-#include "../misc/icon.h"
-#include "../misc/verdana.h"
-#include "../misc/russian.h"
-#include "../misc/chinese.h"
+#include "../misc/special_characters/icon.h"
+#include "../misc/special_characters/verdana.h"
+#include "../misc/special_characters/russian.h"
+#include "../misc/special_characters/chinese.h"
 
 //libs
 #include <jni.h>

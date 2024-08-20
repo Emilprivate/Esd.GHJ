@@ -108,7 +108,7 @@ const std::map<std::string, std::string> RU_STRINGS = {
     { "context_add", "Добавить" },
     { "item_added", "[+] [x%d] | Добавлен предмет" },
     { "item_text", "Предмет: %s" },
-    { "main_window_title", "Esd.PZ | Прототип 5" },
+    { "main_window_title", "Esd.PZ | Release 1.0" },
     { "menu_items", "Предметы" },
     { "menu_playerslist", "Список игроков" },
     { "tab_player", "Игрок" },

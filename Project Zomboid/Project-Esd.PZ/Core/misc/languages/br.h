@@ -109,7 +109,7 @@ const std::map<std::string, std::string> BR_STRINGS = {
     { "context_add", "Adicionar" },
     { "item_added", "[+] [x%d] | Adicionar Item" },
     { "item_text", "Item: %s" },
-    { "main_window_title", "Esd.PZ | Prototype 5" },
+    { "main_window_title", "Esd.PZ | Release 1.0" },
     { "menu_items", "Itens" },
     { "menu_playerslist", "Lista de Jogadores" },
     { "tab_player", "Jogador" },

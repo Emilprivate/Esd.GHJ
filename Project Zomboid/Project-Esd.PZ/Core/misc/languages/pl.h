@@ -108,7 +108,7 @@ const std::map<std::string, std::string> PL_STRINGS = {
 	{"context_add", "Dodaj"},
 	{"item_added", "[+] [x%d] | Dodano przedmiot"},
 	{"item_text", "Przedmiot: %s"},
-	{"main_window_title", "Esd.PZ | Prototyp 5"},
+	{"main_window_title", "Esd.PZ | Release 1.0"},
 	{"menu_items", "Przedmioty"},
 	{"menu_playerslist", "Lista graczy"},
 	{"tab_player", "Gracz"},

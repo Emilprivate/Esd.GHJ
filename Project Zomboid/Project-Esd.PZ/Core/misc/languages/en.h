@@ -108,7 +108,7 @@ const std::map<std::string, std::string> EN_STRINGS = {
     { "context_add", "Add" },
     { "item_added", "[+] [x%d] | Added item" },
     { "item_text", "Item: %s" },
-    { "main_window_title", "Esd.PZ | Prototype 5" },
+    { "main_window_title", "Esd.PZ | Release 1.0" },
     { "menu_items", "Items" },
     { "menu_playerslist", "Playerslist" },
     { "tab_player", "Player" },

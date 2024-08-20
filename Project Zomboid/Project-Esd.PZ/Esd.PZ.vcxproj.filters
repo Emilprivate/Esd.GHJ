@@ -105,10 +105,10 @@
     <ClInclude Include="Core\menu\windows\terminal.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Core\misc\chinese.h">
+    <ClInclude Include="Core\misc\special_characters\chinese.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Core\misc\icon.h">
+    <ClInclude Include="Core\misc\special_characters\icon.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Core\misc\languages\br.h">
@@ -126,13 +126,13 @@
     <ClInclude Include="Core\misc\languages\zh.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Core\misc\russian.h">
+    <ClInclude Include="Core\misc\special_characters\russian.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Core\misc\vector_itemmaps.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Core\misc\verdana.h">
+    <ClInclude Include="Core\misc\special_characters\verdana.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Core\utils\configsystem.h">
