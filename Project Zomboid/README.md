@@ -41,6 +41,10 @@ Paste this into `Linker->Input`
 
 `libMinHook.x64.lib;glew32s.lib;Shell32.lib;Comdlg32.lib;%(AdditionalDependencies)`
 
+___
+
+Also ensure that all files & resources are included in the project! You can do this by creating a filter and dragging everything into that. 
+
 </div>
 
 
