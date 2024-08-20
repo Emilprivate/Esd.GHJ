@@ -8,10 +8,8 @@
 📝 [Unknowncheats](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/584072-project-zomboid-cheat-esdpz.html)
 🎥 [Youtube Demo](https://www.youtube.com/watch?v=unk9719IUTI&ab_channel=redfane)
 
-## Loader
-Check out the loader made by Okie: [Loader](https://github.com/okieeee/PZ-Injector)
-
 ___
+**PS:** You may not need to do any of this! Try downloading the project and try to build it first!
 
 ## Installation Guide
 ### Requirements:
