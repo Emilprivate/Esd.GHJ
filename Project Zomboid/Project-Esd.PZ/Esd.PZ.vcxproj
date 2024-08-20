@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\handlers\playerhandler.h" />
+    <ClInclude Include="Core\hooks\hooks.h" />
+    <ClInclude Include="Core\hooks\jvm.h" />
+    <ClInclude Include="Core\manipulation\inventorycalls.h" />
+    <ClInclude Include="Core\manipulation\playercalls.h" />
+    <ClInclude Include="Core\manipulation\skillcalls.h" />
+    <ClInclude Include="Core\menu\defaultstyle.h" />
+    <ClInclude Include="Core\menu\imguistyles.h" />
+    <ClInclude Include="Core\menu\menu.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\clothing.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\equipment.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\food.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\itemsmisc.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\literature.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\materials.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\medical.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\vehicle.h" />
+    <ClInclude Include="Core\menu\menubar\itemstabs\weapon.h" />
+    <ClInclude Include="Core\menu\menubar\items_window.h" />
+    <ClInclude Include="Core\menu\menubar\managers\items_json_manager.h" />
+    <ClInclude Include="Core\menu\menubar\managers\items_window_manager.h" />
+    <ClInclude Include="Core\menu\menubar\playerslist_window.h" />
+    <ClInclude Include="Core\menu\tabs\about.h" />
+    <ClInclude Include="Core\menu\tabs\configs.h" />
+    <ClInclude Include="Core\menu\tabs\misc.h" />
+    <ClInclude Include="Core\menu\tabs\misctabs\misc1.h" />
+    <ClInclude Include="Core\menu\tabs\misctabs\misc2.h" />
+    <ClInclude Include="Core\menu\tabs\player.h" />
+    <ClInclude Include="Core\menu\tabs\settings.h" />
+    <ClInclude Include="Core\menu\tabs\skills.h" />
+    <ClInclude Include="Core\menu\tabs\styles.h" />
+    <ClInclude Include="Core\menu\windows\terminal.h" />
+    <ClInclude Include="Core\misc\chinese.h" />
+    <ClInclude Include="Core\misc\icon.h" />
+    <ClInclude Include="Core\misc\languages\br.h" />
+    <ClInclude Include="Core\misc\languages\en.h" />
+    <ClInclude Include="Core\misc\languages\pl.h" />
+    <ClInclude Include="Core\misc\languages\ru.h" />
+    <ClInclude Include="Core\misc\languages\zh.h" />
+    <ClInclude Include="Core\misc\russian.h" />
+    <ClInclude Include="Core\misc\vector_itemmaps.h" />
+    <ClInclude Include="Core\misc\verdana.h" />
+    <ClInclude Include="Core\utils\configsystem.h" />
+    <ClInclude Include="Core\utils\includes.h" />
+    <ClInclude Include="Core\utils\localization_manager.h" />
+    <ClInclude Include="Core\utils\utils.h" />
+    <ClInclude Include="Resources\json_cpp_format\combined.h" />
+    <ClInclude Include="Resources\libraries\imgui\imconfig.h" />
+    <ClInclude Include="Resources\libraries\imgui\imgui.h" />
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="Resources\libraries\imgui\imgui_internal.h" />
+    <ClInclude Include="Resources\libraries\imgui\imstb_rectpack.h" />
+    <ClInclude Include="Resources\libraries\imgui\imstb_textedit.h" />
+    <ClInclude Include="Resources\libraries\imgui\imstb_truetype.h" />
+    <ClInclude Include="Resources\libraries\json\json.h" />
+    <ClInclude Include="Resources\libraries\minhook\MinHook.h" />
+    <ClInclude Include="Resources\libraries\opengl\x64\glew.h" />
+    <ClInclude Include="Resources\libraries\opengl\x64\glxew.h" />
+    <ClInclude Include="Resources\libraries\opengl\x64\wglew.h" />
+    <ClInclude Include="Resources\libraries\opengl\x86\glew.h" />
+    <ClInclude Include="Resources\libraries\opengl\x86\glxew.h" />
+    <ClInclude Include="Resources\libraries\opengl\x86\wglew.h" />
+    <ClInclude Include="Resources\libraries\stb\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\main.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_demo.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_draw.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_tables.cpp" />
+    <ClCompile Include="Resources\libraries\imgui\imgui_widgets.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c5c4505a-3149-4545-838b-7d76f08b8826}</ProjectGuid>
+    <RootNamespace>EsdPZ</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files\Java\jdk-22\include\win32;C:\Program Files\Java\jdk-22\include;$(ProjectDir)\Resources\json_cpp_format;$(ProjectDir)\Resources\libraries\json;$(ProjectDir)\Resources\libraries\imgui;$(ProjectDir)\Resources\libraries\opengl\x64;$(ProjectDir)\Resources\libraries\minhook\;$(ProjectDir)\Resources\libraries\stb;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(ProjectDir)\Resources\libraries\minhook\x64\debug;$(ProjectDir)\Resources\libraries\opengl\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files\Java\jdk-22\include\win32;C:\Program Files\Java\jdk-22\include;$(ProjectDir)\Resources\json_cpp_format;$(ProjectDir)\Resources\libraries\json;$(ProjectDir)\Resources\libraries\imgui;$(ProjectDir)\Resources\libraries\opengl\x64;$(ProjectDir)\Resources\libraries\minhook\;$(ProjectDir)\Resources\libraries\stb;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(ProjectDir)\Resources\libraries\minhook\x64\debug;$(ProjectDir)\Resources\libraries\opengl\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files\Java\jdk-22\include\win32;C:\Program Files\Java\jdk-22\include;$(ProjectDir)\Resources\json_cpp_format;$(ProjectDir)\Resources\libraries\json;$(ProjectDir)\Resources\libraries\imgui;$(ProjectDir)\Resources\libraries\opengl\x64;$(ProjectDir)\Resources\libraries\minhook\;$(ProjectDir)\Resources\libraries\stb;$(IncludePath)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);libMinHook.x64.lib;glew32s.lib;Shell32.lib;Comdlg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files\Java\jdk-22\include\win32;C:\Program Files\Java\jdk-22\include;$(ProjectDir)\Resources\json_cpp_format;$(ProjectDir)\Resources\libraries\json;$(ProjectDir)\Resources\libraries\imgui;$(ProjectDir)\Resources\libraries\opengl\x64;$(ProjectDir)\Resources\libraries\minhook\;$(ProjectDir)\Resources\libraries\stb;$(IncludePath)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);libMinHook.x64.lib;glew32s.lib;Shell32.lib;Comdlg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

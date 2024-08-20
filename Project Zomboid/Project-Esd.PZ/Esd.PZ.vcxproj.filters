@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ee4e32b1-a41c-4c71-9de7-c7d106b7586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c8280656-e521-4e70-973f-2f7823d6c339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\handlers\playerhandler.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\hooks\hooks.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\hooks\jvm.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\manipulation\inventorycalls.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\manipulation\playercalls.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\manipulation\skillcalls.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\defaultstyle.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\imguistyles.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menu.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\clothing.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\equipment.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\food.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\itemsmisc.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\literature.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\materials.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\medical.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\vehicle.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\itemstabs\weapon.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\items_window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\managers\items_json_manager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\managers\items_window_manager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\menubar\playerslist_window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\about.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\configs.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\misc.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\misctabs\misc1.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\misctabs\misc2.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\player.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\settings.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\skills.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\tabs\styles.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\menu\windows\terminal.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\chinese.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\icon.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\languages\br.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\languages\en.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\languages\pl.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\languages\ru.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\languages\zh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\russian.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\vector_itemmaps.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\misc\verdana.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\configsystem.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\includes.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\localization_manager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\utils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\json_cpp_format\combined.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imconfig.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imgui.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_opengl3.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imgui_impl_win32.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imgui_internal.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imstb_rectpack.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imstb_textedit.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\imgui\imstb_truetype.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\json\json.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\minhook\MinHook.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x64\glew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x64\glxew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x64\wglew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x86\glew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x86\glxew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\opengl\x86\wglew.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\libraries\stb\stb_image.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_demo.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_draw.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_impl_win32.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_tables.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\libraries\imgui\imgui_widgets.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
