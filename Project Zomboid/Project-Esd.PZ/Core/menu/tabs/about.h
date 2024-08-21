@@ -22,15 +22,11 @@ void RenderAboutTab()
         ShellExecuteA(NULL, "open", "https://github.com/Emilprivate", NULL, NULL, SW_SHOWNORMAL);
 
     ImGui::SetCursorPosX(centerPosX);
-    if (ImGui::Button(config.localizationManager.getString("okie_github").c_str(), ImVec2(buttonWidth, buttonHeight)))
-        ShellExecuteA(NULL, "open", "https://github.com/okieeee", NULL, NULL, SW_SHOWNORMAL);
-
-    ImGui::SetCursorPosX(centerPosX);
     if (ImGui::Button("Donations", ImVec2(buttonWidth, buttonHeight)))
         ShellExecuteA(NULL, "open", "https://www.patreon.com/redfane/membership", NULL, NULL, SW_SHOWNORMAL);
     if (ImGui::IsItemHovered())
     {
-        ImGui::SetTooltip("Any donations are appreciated! - You will get an automatic invite to our private server after the donation!");
+        ImGui::SetTooltip("Any donations are appreciated!");
     }
 
     ImGui::Spacing();
