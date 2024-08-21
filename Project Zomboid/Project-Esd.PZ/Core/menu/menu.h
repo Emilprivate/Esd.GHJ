@@ -52,7 +52,7 @@ void RenderMenu(bool* showMainWindow)
             RenderPlayerlistWindow(&showPlayerlistWindow);
         }
 
-        ACWarning();
+        //ACWarning();
 
         ImGuiTabBarFlags tab_bar_flags = ImGuiTabBarFlags_None;
 
@@ -108,5 +108,5 @@ void RenderMenu(bool* showMainWindow)
     }
     ImGui::End();
 
-    //RenderTerminalWindow(mainWindowPos, mainWindowSize);
+    RenderTerminalWindow(mainWindowPos, mainWindowSize);
 }

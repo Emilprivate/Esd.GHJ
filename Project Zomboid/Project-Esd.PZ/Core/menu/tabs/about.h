@@ -22,18 +22,18 @@ void RenderAboutTab()
         ShellExecuteA(NULL, "open", "https://github.com/Emilprivate", NULL, NULL, SW_SHOWNORMAL);
 
     ImGui::SetCursorPosX(centerPosX);
-    if (ImGui::Button("Donations", ImVec2(buttonWidth, buttonHeight)))
+    if (ImGui::Button(config.localizationManager.getString("donations").c_str(), ImVec2(buttonWidth, buttonHeight)))
         ShellExecuteA(NULL, "open", "https://www.patreon.com/redfane/membership", NULL, NULL, SW_SHOWNORMAL);
     if (ImGui::IsItemHovered())
     {
-        ImGui::SetTooltip("Any donations are appreciated!");
+        ImGui::SetTooltip(config.localizationManager.getString("appreciate_donations").c_str());
     }
 
     ImGui::Spacing();
 
     std::vector<char> devStringVector;
     
-    std::string devStr = config.localizationManager.getString("made_by_red_and_okie");
+    std::string devStr = config.localizationManager.getString("made_by");
     devStringVector.assign(devStr.begin(), devStr.end());
     devStringVector.push_back('\0');
     const char* devString = devStringVector.data();
@@ -42,24 +42,11 @@ void RenderAboutTab()
     float centerTextPosX = (ImGui::GetWindowContentRegionMax().x - textWidth) / 2;
 
     // ===========================================================================
-    
-    std::vector<char> discordStringVector;
-
-    std::string discStr = "Discord links are updated on our GitHub!";
-    discordStringVector.assign(discStr.begin(), discStr.end());
-    discordStringVector.push_back('\0');
-    const char* discordString = discordStringVector.data();
-
-    float textWidth2 = ImGui::CalcTextSize(discordString).x;
-    float centerTextPosX2 = (ImGui::GetWindowContentRegionMax().x - textWidth2) / 2;
 
     //Discord links are updated on our GitHub!
 
     ImGui::SetCursorPosX(centerTextPosX);
     ImGui::Text(devString);
-
-    ImGui::SetCursorPosX(centerTextPosX2);
-    ImGui::Text(discordString);
 }
 
 

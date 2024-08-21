@@ -341,6 +341,8 @@ void RenderPlayerlistWindow(bool* showPlayerlistWindow)
 
     if (ImGui::Begin("Playerslist Window", showPlayerlistWindow, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize))
     {
+        ImGui::Text(config.localizationManager.getString("development_notice").c_str());
+
         RenderHookedGameClientClass();
         
         //static int currentTab = 0;

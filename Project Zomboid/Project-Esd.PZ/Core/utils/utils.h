@@ -58,18 +58,18 @@ std::string OpenFileDialog()
 
 
 
-/*void RedirectConsoleOutput()
+void RedirectConsoleOutput()
 {
 	AllocConsole();
 	FILE* file;
 	freopen_s(&file, "CONOUT$", "w", stdout);
-}*/
-
-void RedirectConsoleOutput()
-{
-	AllocConsole();
-	std::cout.rdbuf(strCout.rdbuf());
 }
+
+//void RedirectConsoleOutput()
+//{
+//	AllocConsole();
+//	std::cout.rdbuf(strCout.rdbuf());
+//}
 
 void SetConsoleColor(WORD color)
 {

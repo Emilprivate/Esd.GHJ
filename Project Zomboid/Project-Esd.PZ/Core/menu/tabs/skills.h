@@ -151,7 +151,7 @@ void RenderSkillsTab()
         }
     }
 
-    ImGui::Text("Upgrade All Perks");
+    ImGui::Text(config.localizationManager.getString("upgrade_all_perks").c_str());
 
     if (ImGui::ArrowButton("##left-ua", ImGuiDir_Left))
     {
@@ -171,7 +171,7 @@ void RenderSkillsTab()
 
     ImGui::BeginChild("skillsTabChild2", ImVec2(0, 0), true);
 
-    ImGui::Text("Cheat Options");
+    ImGui::Text(config.localizationManager.getString("cheat_options").c_str());
     ImGui::Separator();
 
 	RenderCheckboxWithTooltipAndValidityCheck(config.localizationManager.getString("build_cheat").c_str(), "setBuildCheat", config.boolSettings[10], config.localizationManager.getString("enable_build_cheat").c_str());

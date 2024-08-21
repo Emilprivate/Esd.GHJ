@@ -55,6 +55,17 @@ void RenderTerminalWindow(ImVec2 mainWindowPos, ImVec2 mainWindowSize)
             }
         }
 
+        ImGui::SameLine();
+
+        if (ImGui::Button(config.localizationManager.getString("tester").c_str()))
+        {
+            Tester();
+        }
+        if (ImGui::IsItemHovered())
+        {
+            ImGui::SetTooltip(config.localizationManager.getString("test_new_features").c_str());
+        }
+
 
         logs = strCout.str();
 

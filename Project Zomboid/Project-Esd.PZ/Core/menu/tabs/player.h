@@ -19,7 +19,7 @@ void RenderPlayerTab()
 
 	ImGui::BeginChild("playerTabChild", ImVec2(0, 0), true);
 
-    ImGui::Text("Player Modifications");
+    ImGui::Text(config.localizationManager.getString("player_modifications").c_str());
     ImGui::Separator();
     RenderCheckboxWithTooltip(config.localizationManager.getString("god_mode").c_str(), "setGodMod", config.boolSettings[1], config.localizationManager.getString("enable_god_mode").c_str());
     RenderCheckboxWithTooltip(config.localizationManager.getString("no_clip").c_str(), "setNoClip", config.boolSettings[2], config.localizationManager.getString("toggle_no_clip").c_str());
@@ -37,19 +37,19 @@ void RenderPlayerTab()
 
 	ImGui::BeginChild("playerTabChild3", ImVec2(0, 0), true);
 
-    ImGui::Text("Player Actions");
+    ImGui::Text(config.localizationManager.getString("player_actions").c_str());
     ImGui::Separator();
-    if (ImGui::Button("Suicide"))
+    if (ImGui::Button(config.localizationManager.getString("suicide").c_str()))
     {
         Suicide();
     }
     if (ImGui::IsItemHovered())
     {
-        ImGui::SetTooltip("KYS lol - Only works on multiplayer servers");
+        ImGui::SetTooltip(config.localizationManager.getString("only_multiplayer").c_str());
     }
     ImGui::Spacing();
 
-    ImGui::Text("Player Delays");
+    ImGui::Text(config.localizationManager.getString("player_delays").c_str());
     ImGui::Separator();
     ImGui::InputFloat("##RecoilDelay", &config.floatSettings[0]);
     if (ImGui::Button(config.localizationManager.getString("no_recoil_delay").c_str()))
@@ -64,45 +64,45 @@ void RenderPlayerTab()
 
     ImGui::Spacing();
 
-    ImGui::Text("Ammo and Weapons");
+    ImGui::Text(config.localizationManager.getString("ammo_and_weapons").c_str());
     
     ImGui::Separator();
 
-    ImGui::Checkbox("Auto Reload Ammo", &config.boolSettings[20]);
+    ImGui::Checkbox(config.localizationManager.getString("auto_reload_ammo").c_str(), &config.boolSettings[20]);
 
     if (ImGui::IsItemHovered())
     {
-        ImGui::SetTooltip("Automatically reloads the weapon when ammo is shot");
+        ImGui::SetTooltip(config.localizationManager.getString("auto_reload").c_str());
     }
     
-    if (ImGui::Button("Manually Refill Magazine"))
+    if (ImGui::Button(config.localizationManager.getString("manually_refill_magazine").c_str()))
     {
         LegitMaxAmmo();
     }
 
     if (ImGui::IsItemHovered())
     {
-        ImGui::SetTooltip("Manually refills the magazine to its max capacity");
+        ImGui::SetTooltip(config.localizationManager.getString("manual_refill_magazine").c_str());
     }
     
     ImGui::InputInt("##Rage Ammo Count", &config.intSettings[0]);
-    if (ImGui::Button("Rage Max Ammo")) {
+    if (ImGui::Button(config.localizationManager.getString("rage_max_ammo").c_str())) {
         RageMaxAmmo(config.intSettings[0]);
     }
 
     if (ImGui::IsItemHovered())
     {
-		ImGui::SetTooltip("Sets the max ammo for the weapon to the specified amount");
+		ImGui::SetTooltip(config.localizationManager.getString("set_max_ammo").c_str());
     }
 
-    if (ImGui::Button("Manually Repair Hand Item"))
+    if (ImGui::Button(config.localizationManager.getString("manually_repair_hand_item").c_str()))
     {
         RepairHandItem();
     }
 
 	if (ImGui::IsItemHovered())
 	{
-		ImGui::SetTooltip("Manually repairs the item in the player's hand");
+		ImGui::SetTooltip(config.localizationManager.getString("manual_repair_item").c_str());
 	}
     
     ImGui::EndChild();

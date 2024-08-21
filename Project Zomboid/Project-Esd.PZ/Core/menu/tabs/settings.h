@@ -79,16 +79,7 @@ void RenderSettingsTab()
 
     ImGui::SameLine();
 
-    if (ImGui::Button(config.localizationManager.getString("tester").c_str()))
-    {
-        Tester();
-    }
-    if (ImGui::IsItemHovered())
-    {
-        ImGui::SetTooltip(config.localizationManager.getString("test_new_features").c_str());
-    }
-
-    if (ImGui::Button("Re-initialise JVM Hook"))
+    if (ImGui::Button(config.localizationManager.getString("reinitialise_jvm_hook").c_str()))
     {
         if (!InitializeJavaVM())
         {
@@ -102,7 +93,7 @@ void RenderSettingsTab()
 
     if (ImGui::IsItemHovered())
     {
-		ImGui::SetTooltip("Reinitialise the JVM hook after rejoining a server to utilise the cheats - OBS: This cannot be done in the main menu, it has to be done in a server. This is a temporary fix. ");
+		ImGui::SetTooltip(config.localizationManager.getString("reinitialise_jvm_hook_desc").c_str());
 	}
     
 }
